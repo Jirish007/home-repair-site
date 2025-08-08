@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FC } from 'react';
 import img1 from '../assets/fix1.webp';
 import img2 from '../assets/fix2.webp';
 import img3 from '../assets/fix3.webp';
 import img4 from '../assets/fix4.webp';
 
-export default function Plumbing() {
+const Plumbing: FC = () => {
   return (
     <section id="plumbing" className="py-5 text-white" style={{ backgroundColor: '#004080' }}>
       <div className="container">
@@ -19,4 +19,6 @@ export default function Plumbing() {
       </div>
     </section>
   );
-}
+};
+
+export default Plumbing;

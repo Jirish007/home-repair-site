@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 import img1 from '../assets/fix1.webp';
 import img2 from '../assets/fix2.webp';
 
-export default function Services() {
+const Services: FC = () => {
   return (
     <section id="services" className="py-5 text-center">
       <div className="container">
@@ -25,3 +25,5 @@ export default function Services() {
     </section>
   );
 }
+
+export default Services;
